@@ -116,11 +116,20 @@ export default function Home() {
           JujuCoin is the native and community token for the Juju Metaverse - a
           truly African Metaverse that focuses on promoting and celebrating the
           African cultures and roots.
-          <br/>
-          <br/>
-          Juju Metaverse is a New World of all things African. The communities in this world are filled with enthusiasts from all walks of life. A quick glance at our roadmap will give you an idea of the world we are trying to create.
-          
-           
+          <br />
+          <br />
+          Juju Metaverse is a New World of all things African. The communities
+          in this world are filled with enthusiasts from all walks of life. A
+          quick glance at our roadmap will give you an idea of the world we are
+          trying to create. Our desire is to transform Africa with blockchain
+          technology and we invite you to join us on this journey to the future.
+          Be part of something tangible, be a change today! Join us and
+          together, we will make Africa <em> place of price</em>
+          <br />
+          <br />
+          Click on <b>Join Us</b> to buy JujuCoin and become part of history!
+          The least you can buy is 1 JujuCoin and it will cost you 0.001 ETH
+          (Goerli Testnet).
         </p>
 
         <div className={styles.grid}>

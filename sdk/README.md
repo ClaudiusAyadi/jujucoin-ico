@@ -4,11 +4,11 @@ This is an Initial Coin Offering (ICO) DApp. It is my official submission for th
 
 This is my first time creating one and was made possible using the following:
 
->1. [Bunzz](https://app.bunzz.dev/)
+> 1.  [Bunzz](https://app.bunzz.dev/)
 >
->2. Bunzz-SDK
+> 2.  Bunzz-SDK
 >
->3. Next.js
+> 3.  Next.js
 
 Bunzz provides me with a platform to deploy contracts without actually writing any code.
 
@@ -25,6 +25,5 @@ At the frontend, click on **Join Us** to buy JujuCoin.
 The least you can buy is 1 JujuCoin and it will cost you 0.001 ETH (Goerli Testnet).
 
 As always, I welcome suggestions and critics. Thank you.
-
 
 Live Demo: https://jujucoin-ico.vercel.app/
