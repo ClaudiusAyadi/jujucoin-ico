@@ -1,34 +1,30 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# JUJUCOIN ICO
 
-## Getting Started
+This is an Initial Coin Offering (ICO) DApp. It is my official submission for the BHCA-BUNZZ Hackathon.
 
-First, run the development server:
+This is my first time creating one and was made possible using the following:
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+>1. [Bunzz](https://app.bunzz.dev/)
+>
+>2. Bunzz-SDK
+>
+>3. Next.js
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Bunzz provides me with a platform to deploy contracts without actually writing any code.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+For this project, I deployed the ICO Template which consists of the ERC20 Token Module and the ICO DApp module.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+On the backend dashboard of my Bunzz, I could see all the functions of the deployed contracts.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+For example, I was able to mint and set the price for JujuCoin all from the DApp dashboard.
 
-## Learn More
+This current version is a basic version. There is only one function called at the frontend which is the **BUY** function.
 
-To learn more about Next.js, take a look at the following resources:
+At the frontend, click on **Join Us** to buy JujuCoin.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The least you can buy is 1 JujuCoin and it will cost you 0.001 ETH (Goerli Testnet).
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+As always, I welcome suggestions and critics. Thank you.
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Live Demo: https://jujucoin-ico.vercel.app/
