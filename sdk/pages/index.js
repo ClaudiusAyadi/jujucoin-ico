@@ -128,8 +128,10 @@ export default function Home() {
           <br />
           <br />
           Click on <b>Join Us</b> to buy JujuCoin and become part of history!
-          The least you can buy is 1 JujuCoin and it will cost you 0.001 ETH
-          (Goerli Testnet).
+          <br />
+          <br />
+          Input the amount you want to buy in the input form. The least you can
+          buy is 1 JujuCoin and it will cost you 0.001 ETH (Goerli Testnet).
         </p>
 
         <div className={styles.grid}>
