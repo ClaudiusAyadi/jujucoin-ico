@@ -35,6 +35,12 @@
   -webkit-text-fill-color: transparent;
 }
 
+.pp {
+  text-align: center;
+  font-size: 20px;
+  padding: 0 300px 100px;
+}
+
 .road {
   text-align: center;
   font-size: 30px;

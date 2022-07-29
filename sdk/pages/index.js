@@ -29,9 +29,7 @@ export default function Home() {
         const handler = await init();
 
         const userAddress = await handler.getSignerAddress();
-        const contract = await handler.getContract(
-          "Initial Coin Offering (ICO)"
-        );
+        const contract = await handler.getContract("Token (ERC20)");
 
         setUserAddress(userAddress);
         setContract(contract);
@@ -46,7 +44,7 @@ export default function Home() {
   const handleChange = (e) => setValue(e.target.value);
 
   const submit = async () => {
-    await contract.buy(userAddress, value);
+    await contract.mint(userAddress, value);
     alert("Minting initiated and transaction was successful!");
   };
 
@@ -114,10 +112,15 @@ export default function Home() {
           <em>- an African adage.</em>
         </p>
 
-        <p>
+        <p className={styles.pp}>
           JujuCoin is the native and community token for the Juju Metaverse - a
           truly African Metaverse that focuses on promoting and celebrating the
           African cultures and roots.
+          <br/>
+          <br/>
+          Juju Metaverse is a New World of all things African. The communities in this world are filled with enthusiasts from all walks of life. A quick glance at our roadmap will give you an idea of the world we are trying to create.
+          
+           
         </p>
 
         <div className={styles.grid}>
