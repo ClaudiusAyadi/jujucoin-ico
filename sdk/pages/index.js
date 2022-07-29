@@ -29,7 +29,9 @@ export default function Home() {
         const handler = await init();
 
         const userAddress = await handler.getSignerAddress();
-        const contract = await handler.getContract("Token (ERC20)");
+        const contract = await handler.getContract(
+          "Initial Coin Offering (ICO)"
+        );
 
         setUserAddress(userAddress);
         setContract(contract);
@@ -44,7 +46,7 @@ export default function Home() {
   const handleChange = (e) => setValue(e.target.value);
 
   const submit = async () => {
-    await contract.mint(userAddress, value);
+    await contract.buy(userAddress, value);
     alert("Minting initiated and transaction was successful!");
   };
 
@@ -123,46 +125,33 @@ export default function Home() {
           <a href="#" className={styles.card}>
             <h2>Q4 2021 &rarr;</h2>
             <p>
-              <li>Idealization</li>
-              <li>Team Assembly</li>
-              <li>Whitepaper</li>
-              <li>Website</li>
-              <li>Communities and Social Media Presence</li>
+              Idealization, Team Assembly, Whitepaper, Website, Communities and
+              Social Media Presence,
             </p>
           </a>
 
           <a href="#" className={styles.card}>
             <h2>Q2 2022 &rarr;</h2>
             <p>
-              <li>Tokenizaation</li>
-              <li>Security and Auditing</li>
-              <li>Initial Coin Offering (ICO)</li>
-              <li>DEX Listing</li>
-              <li>Partnerships</li>
+              Tokenizaation, Security and Auditing, Initial Coin Offering (ICO),
+              DEX Listing, Partnerships,
             </p>
           </a>
 
           <a href="#" className={styles.card}>
             <h2>Q3 2022 &rarr;</h2>
             <p>
-              <li>NFT Minting</li>
-              <li>NFT DAO Governance</li>
-              <li>Local Partnerships</li>
-              <li>Arts & NFT Marketplace</li>
-              <li>African Fashion Marketplace</li>
-              <li>Communities and Social Charities</li>
+              NFT Minting, NFT DAO Governance, Local Partnerships, Arts & NFT
+              Marketplace, African Fashion Marketplace, Communities and Social
+              Charities
             </p>
           </a>
 
           <a href="#" className={styles.card}>
             <h2>Q4 2022 &rarr;</h2>
             <p>
-              <li>DAO Growth and Restructuring</li>
-              <li>NGO Partnerships</li>
-              <li>Partnerships</li>
-              <li>African Food Produce Marketplace</li>
-              <li>More Growth</li>
-              <li>Roadmap V2</li>
+              DAO Growth and Restructuring, NGO Partnerships, Partnerships,
+              African Food Produce Marketplace, More Growth Roadmap V2
             </p>
           </a>
         </div>
