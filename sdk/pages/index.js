@@ -124,7 +124,7 @@ export default function Home() {
           trying to create. Our desire is to transform Africa with blockchain
           technology and we invite you to join us on this journey to the future.
           Be part of something tangible, be a change today! Join us and
-          together, we will make Africa <em> place of price</em>
+          together, we will make Africa <em> a place of price</em>
           <br />
           <br />
           Click on <b>Join Us</b> to buy JujuCoin and become part of history!
