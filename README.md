@@ -1,4 +1,4 @@
-# JUJUCOIN ICO
+# JUJUCOIN ICO [Bunzz-BCHA Hackathon
 
 This is an Initial Coin Offering (ICO) DApp. It is my official submission for the BHCA-BUNZZ Hackathon.
 
