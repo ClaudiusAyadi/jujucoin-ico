@@ -45,7 +45,7 @@ export default function Home() {
 
   const submit = async () => {
     await contract.mint(userAddress, value);
-    alert("Minting initiated and transaction was successful!");
+    alert("Hurray! Welcome to the New World! Transaction was successful!");
   };
 
   return (
