@@ -138,35 +138,47 @@ export default function Home() {
           <div className={styles.road}>Our Roadmap</div>
           <a href="#" className={styles.card}>
             <h2>Q4 2021 &rarr;</h2>
-            <p>
-              Idealization, Team Assembly, Whitepaper, Website, Communities and
-              Social Media Presence,
-            </p>
+
+            <ul className={styles.pcard}>
+              <li>Idealization</li>
+              <li>Team Assembly</li>
+              <li>Whitepaper</li>
+              <li>Website</li>
+              <li>Communities and Social Media Presence</li>
+            </ul>
           </a>
 
           <a href="#" className={styles.card}>
             <h2>Q2 2022 &rarr;</h2>
-            <p>
-              Tokenizaation, Security and Auditing, Initial Coin Offering (ICO),
-              DEX Listing, Partnerships,
-            </p>
+            <ul className={styles.pcard}>
+              <li>Tokenizaation</li>
+              <li>Security and Auditing</li>
+              <li>Initial Coin Offering (ICO)</li>
+              <li>DEX Listing</li>
+              <li>Partnerships</li>
+            </ul>
           </a>
 
           <a href="#" className={styles.card}>
             <h2>Q3 2022 &rarr;</h2>
-            <p>
-              NFT Minting, NFT DAO Governance, Local Partnerships, Arts & NFT
-              Marketplace, African Fashion Marketplace, Communities and Social
-              Charities
-            </p>
+            <ul className={styles.pcard}>
+              <li>NFT Minting</li>
+              <li>NFT DAO Governance</li>
+              <li>Local Partnerships</li>
+              <li>Arts & NFT Marketplace</li>
+              <li>African Fashion Marketplace</li>
+              <li>Communities and Social Charities</li>
+            </ul>
           </a>
 
           <a href="#" className={styles.card}>
             <h2>Q4 2022 &rarr;</h2>
-            <p>
-              DAO Growth and Restructuring, NGO Partnerships, Partnerships,
-              African Food Produce Marketplace, More Growth Roadmap V2
-            </p>
+            <ul className={styles.pcard}>
+              <li>DAO Growth and Restructuring</li>
+              <li>NGO Partnerships</li>
+              <li>African Food Produce Marketplace</li>
+              <li>Roadmap V2</li>
+            </ul>
           </a>
         </div>
       </main>
