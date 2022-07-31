@@ -188,7 +188,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Made with 💖 by D. C.#8825
+          D. C.#8825 💖 Africa!
         </a>
 
         <a
